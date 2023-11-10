@@ -13,10 +13,13 @@ struct ContentView: View {
             Button("bridgeTruck"){
                 print(bridgeTruck(2, 10, [7,4,5,6]))
             }
-            
-            Button("reportedResult"){
-                print(reportedResult(["muzi", "frodo", "apeach", "neo"], ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"], 2))
+            Button("Grammar") {
+                print(ArrayTEST())
+                //print(DictTest())
             }
+//            Button("reportedResult"){
+//                print(reportedResult(["muzi", "frodo", "apeach", "neo"], ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"], 2))
+//            }
             Button("Stack"){
                 var stack = Stack<String>()
                 stack.push("a")
